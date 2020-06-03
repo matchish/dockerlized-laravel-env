@@ -15,5 +15,5 @@ mkdir dist
 cd dist && 
 docker run --rm -v $(pwd):/app composer create-project --prefer-dist laravel/laravel .
 ```
-3. run this command `$ docker-compose build && docker-compsoe up -d`
-4. you can check if the container is runngin by `$ docker ps`
+3. run this command `$ docker-compose build && docker-compose up -d`
+4. you can check if the container is running by `$ docker ps`
